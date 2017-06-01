@@ -69,4 +69,4 @@ try:
             m.write(str(count) + "." + i + "\n")
             count += 1
 except IOError:
-    print("could not open the " + path)
+    print("could not open " + path)
